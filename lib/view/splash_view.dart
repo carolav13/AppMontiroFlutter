@@ -11,29 +11,24 @@ class SplashView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: EasySplashScreen(
-
-        
-        logo: const Image(
-          
-
-        
-          image: AssetImage(
-            "lib/images/logoNF.png",
-          ),
+        logo: Image(
+          image: AssetImage("lib/images/logoNF.png"),
+          width: MediaQuery.of(context).size.width * 0.5,
+          height: MediaQuery.of(context).size.height * 0.5,
         ),
-
-
-
-
         title: const Text(
           'Bem-vindo ao Montirõ',
-          style: TextStyle(fontSize: 18.0, fontFamily: AutofillHints.url),
+          style: TextStyle(
+              fontSize: 15.0,
+              color: Color.fromARGB(255, 111, 7, 0),
+              fontFamily: AutofillHints.url),
         ),
-        backgroundColor: Color(0xFFF7F7A4),
+        backgroundColor: Color.fromARGB(255, 245, 248, 186),
         showLoader: true,
         loadingText: const Text(
           'Carregando...',
-          style: TextStyle(fontSize: 16.0),
+          style: TextStyle(
+              fontSize: 16.0, color: Color.fromARGB(255, 142, 91, 89)),
         ),
         navigator: LoginView(),
         durationInSeconds: 1,
