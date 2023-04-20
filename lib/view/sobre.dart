@@ -6,9 +6,6 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Sobre'),
-      ),
       body: Container(
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
@@ -23,7 +20,7 @@ class AboutScreen extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 80,
-              backgroundImage: AssetImage('lib/images/dev.jpeg'),
+              backgroundImage: AssetImage('lib/images/dev.jpegig'),
             ),
             SizedBox(height: 16),
             Text(
@@ -43,7 +40,7 @@ class AboutScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus magna ac lectus vestibulum, eget dapibus velit fermentum. Nullam volutpat, quam vel facilisis bibendum, justo sapien ornare elit, sit amet luctus lacus ipsum eget turpis. Nam interdum, mi in ultrices pretium, eros est lobortis nisl, quis fermentum leo velit auctor orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris finibus sapien ut nibh cursus ullamcorper. Sed id leo vel elit aliquam maximus. Nam eget sapien id est mollis pharetra. Maecenas eu mauris lacus. Donec non purus non urna ultricies malesuada. Vestibulum auctor odio ac nibh venenatis, eget iaculis nulla pharetra. Integer vel metus purus. Nam dictum metus nisl, nec dignissim lorem lobortis et.',
+              'Lorem ipsum dolor sit amet, consectetur lorem lobortis et.',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey.shade800,
