@@ -116,7 +116,7 @@ class _CadastroUsuarioScreenState extends State<CadastroUsuarioScreen> {
                       ),
                       TextFormField(
                         decoration: InputDecoration(
-                          labelText: 'CPF',
+                          labelText: 'CPF/CNPJ',
                         ),
                         validator: (value) {
                           if (value?.isEmpty ?? true) {

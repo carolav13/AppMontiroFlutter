@@ -82,7 +82,7 @@ class _LoginViewState extends State<LoginView> {
                             child: TextField(
                               controller: cpfController,
                               decoration: InputDecoration(
-                                hintText: 'CPF',
+                                hintText: 'CPF/CNPJ',
                                 hintStyle: TextStyle(
                                   color: Color.fromARGB(255, 111, 7, 0),
                                 ),

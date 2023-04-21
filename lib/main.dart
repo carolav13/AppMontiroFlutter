@@ -10,6 +10,10 @@ import 'view/splash_view.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:recomeco/view/configuracao.dart';
+import 'package:recomeco/view/home.dart';
+import 'package:recomeco/view/perfil_page.dart';
 
 void main() {
   runApp(
@@ -25,6 +29,9 @@ void main() {
         //'detalhes': (context) => DetalhesView(),
         'splash': (context) => SplashView(),
         //'cadastro': (context) => CadastroUsuario(),
+        '/home': (context) => HomeScreen(),
+        '/perfil': (context) => PerfilScreen(),
+        '/configuracoes': (context) => ConfiguracoesScreen(),
       },
     ),
   );
