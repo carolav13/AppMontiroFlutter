@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Minha aplicação',
       initialRoute: '/home', // rota inicial
       routes: {
-        //'/home': (context) => HomeScreen(),
+        '/home': (context) => HomeScreen(),
         '/perfil': (context) => PerfilScreen(),
         '/configuracoes': (context) => ConfiguracoesScreen(),
       },

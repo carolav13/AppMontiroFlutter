@@ -52,8 +52,8 @@ class _LoginViewState extends State<LoginView> {
                   children: [
                     Image.asset(
                       "lib/images/logoNF.png",
-                      width: MediaQuery.of(context).size.width * 0.3,
-                      height: MediaQuery.of(context).size.height * 0.3,
+                      width: MediaQuery.of(context).size.width * 0.4,
+                      height: MediaQuery.of(context).size.height * 0.4,
                     ),
                   ],
                 ),
@@ -61,7 +61,7 @@ class _LoginViewState extends State<LoginView> {
               Positioned(
                 child: Container(
                   padding: EdgeInsets.all(30),
-                  margin: EdgeInsets.only(top: 200),
+                  margin: EdgeInsets.only(top: 300),
                   width: double.infinity,
                   height: double.infinity,
                   decoration: BoxDecoration(
