@@ -52,8 +52,8 @@ class _LoginViewState extends State<LoginView> {
                   children: [
                     Image.asset(
                       "lib/images/logoNF.png",
-                      width: MediaQuery.of(context).size.width * 0.4,
-                      height: MediaQuery.of(context).size.height * 0.4,
+                      width: MediaQuery.of(context).size.width * 0.5,
+                      height: MediaQuery.of(context).size.height * 0.5,
                     ),
                   ],
                 ),
@@ -264,22 +264,6 @@ class _LoginViewState extends State<LoginView> {
                             ),
                           ],
                         ),
-
-//
-//Espaço para inserir digital - gif
-//
-/*
-                        SizedBox(height: 30),
-                        Container(
-                          width: 80,
-                          height: 80,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage('lib/images/digital.gif'),
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),*/
                       ],
                     ),
                   ),
